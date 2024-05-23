@@ -5,7 +5,7 @@ import (
 	"errors"
 	"fmt"
 
-	"github.com/crowdin/crowdin-api-client-go/crowdin/model"
+	"github.com/chenshone/crowdin-api-client-go/crowdin/model"
 )
 
 // LabelsService provides access to the Labels API.

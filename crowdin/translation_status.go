@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/crowdin/crowdin-api-client-go/crowdin/model"
+	"github.com/chenshone/crowdin-api-client-go/crowdin/model"
 )
 
 // Status represents the general localization progress on both translations and proofreading.

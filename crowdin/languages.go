@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/crowdin/crowdin-api-client-go/crowdin/model"
+	"github.com/chenshone/crowdin-api-client-go/crowdin/model"
 )
 
 // Crowdin supports more than 300 world languages and custom languages created in the system.

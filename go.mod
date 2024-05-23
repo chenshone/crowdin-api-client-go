@@ -1,4 +1,4 @@
-module github.com/crowdin/crowdin-api-client-go
+module github.com/chenshone/crowdin-api-client-go
 
 go 1.22.0
 

@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/crowdin/crowdin-api-client-go/crowdin/model"
+	"github.com/chenshone/crowdin-api-client-go/crowdin/model"
 )
 
 // Groups allow you to organize your projects based on specific characteristics.

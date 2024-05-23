@@ -53,7 +53,7 @@ type (
 		Vendor           string              `json:"vendor,omitempty"`
 		BranchIDs        []int               `json:"branchIds,omitempty"`
 		IsArchived       *bool               `json:"isArchived,omitempty"`
-		Fields           map[string]any      `json:"fields,omitempty"`
+		Fields           []any               `json:"fields,omitempty"`
 	}
 
 	// TaskAssignee represents an assignee of a task.
@@ -512,7 +512,7 @@ type (
 		// End date for interval when strings were modified. Format: UTC, ISO 8601.
 		DateTo string `json:"dateTo,omitempty"`
 		// Fields for task.
-		Fields map[string]any `json:"fields,omitempty"`
+		Fields []any `json:"fields,omitempty"`
 	}
 
 	EnterpriseVendorTaskCreateForm struct {
@@ -547,7 +547,7 @@ type (
 		// End date for interval when strings were modified. Format: UTC, ISO 8601.
 		DateTo string `json:"dateTo,omitempty"`
 		// Fields for task.
-		Fields map[string]any `json:"fields,omitempty"`
+		Fields []any `json:"fields,omitempty"`
 	}
 
 	EnterprisePendingTaskCreateForm struct {

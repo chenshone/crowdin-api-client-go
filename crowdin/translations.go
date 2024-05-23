@@ -4,7 +4,7 @@ import (
 	"context"
 	"fmt"
 
-	"github.com/crowdin/crowdin-api-client-go/crowdin/model"
+	"github.com/chenshone/crowdin-api-client-go/crowdin/model"
 )
 
 // Translators can work with entirely untranslated project or you can pre-translate the files

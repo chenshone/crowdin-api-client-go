@@ -7,7 +7,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/crowdin/crowdin-api-client-go/crowdin/model"
+	"github.com/chenshone/crowdin-api-client-go/crowdin/model"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )
