@@ -145,7 +145,9 @@ type GlossariesListOptions struct {
 	OrderBy string `json:"orderBy,omitempty"`
 	// Group Identifier.
 	// Note: Set 0 to see glossaries of root group.
-	GroupID *int `json:"groupId,omitempty"`
+	//GroupID *int `json:"groupId,omitempty"`
+
+	UserID *int `json:"userId,omitempty"`
 
 	ListOptions
 }
@@ -162,8 +164,11 @@ func (o *GlossariesListOptions) Values() (url.Values, bool) {
 	if o.OrderBy != "" {
 		v.Add("orderBy", o.OrderBy)
 	}
-	if o.GroupID != nil {
-		v.Add("groupId", fmt.Sprintf("%d", *o.GroupID))
+	//if o.GroupID != nil {
+	//	v.Add("groupId", fmt.Sprintf("%d", *o.GroupID))
+	//}
+	if o.UserID != nil {
+		v.Add("userId", fmt.Sprintf("%d", *o.UserID))
 	}
 
 	return v, len(v) > 0
